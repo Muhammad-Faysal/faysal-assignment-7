@@ -1,0 +1,262 @@
+body{
+ 
+    background-image: url(./img/dark-blue-product-background_53876-92801.jpg);
+    
+    height: 100%;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    /* background-color: rgba(22, 16, 16, 0.911); */
+
+}
+
+*{
+ margin: auto;
+
+}
+@font-face {
+    font-family: bigfont;
+    src: url(./font/Barriecito-Regular.ttf);
+}
+
+span img {
+    height: 57px;
+    position: absolute;
+    width: 57px;
+    margin-left: 8px;
+    margin-top: -57px;
+    border-radius: 70px;
+}
+
+
+.nav1{
+
+display: flex;
+
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+
+background-color: rgba(27, 36, 57, 0.97);
+
+color: rgb(237, 251, 250);
+width: 1228px;
+display: block;
+/* display: inline-block; */
+font-weight: 900;
+padding: 18px;
+word-spacing: 12px;
+border-radius: 30px;
+box-shadow: 1px 1px 20px white;
+z-index: initial;
+
+}
+
+.nav1 > a{
+
+    color: aliceblue;
+    /* text-align: center; */
+    /* word-spacing: 12px; */
+    text-decoration: none;
+    align-items: center;
+
+}
+
+.nav1 :hover{
+
+    background-color: rgba(239, 126, 6, 0.872);
+    transition: 0.7s all;
+    padding: 18px;
+
+
+}
+
+label {
+
+justify-content: right;
+margin-left: 810px;
+/* margin-bottom: 800px; */
+display: inline-block;
+margin-top: -45px;
+position: absolute;
+color: beige;
+font-weight: bold;
+
+    
+}
+
+label img{
+
+    height: 20px;
+    width: 30px;
+}
+
+input{
+
+    border-radius: 15px;
+height: 25px;
+}
+
+input:hover{
+
+    background-color: rgba(73, 79, 87, 0.742);
+}
+
+.logo1 img{
+
+    height: 45px;
+    position: absolute;
+    width: 50px;
+    margin-top: -55px;
+    position: absolute;
+    margin-left: 600px;
+    
+}
+
+.logo2 img{
+
+    height: 45px;
+    width: 50px;
+    margin-top: -55px;
+    position: absolute;
+    margin-left: 700px;
+    
+}
+
+
+.div1 button {
+
+    height: 35px;
+ width: 90px;
+ background-color: rgba(255, 0, 85, 0.635);
+ border-radius: 20px;
+ color: beige;
+ box-shadow: 2px 2px 10px rgb(222, 220, 214);
+ border-color: black;
+ margin-left: 1150px;
+ position: absolute;
+ display: inline;
+ margin-top: -45px;
+ 
+
+}
+
+.div2 button{
+
+    height: 35px;
+    width: 90px;
+    background-color: rgba(77, 52, 52, 0.922);
+    border-radius: 20px;
+    color: beige;
+    box-shadow: 2px 2px 10px rgb(222, 220, 214);
+    border-color: black;
+    margin-left: 1025px;
+    position: absolute;
+    display: inline;
+    margin-top: -45px;
+    
+    
+}
+.div1 a {
+
+text-decoration: none;
+color: aliceblue;
+font-weight: bold;
+
+}
+.div2 a {
+
+text-decoration: none;
+color: aliceblue;
+font-weight: bold;
+
+}
+
+
+
+
+.div1 :hover{
+
+
+    background-color: rgb(223, 10, 10);
+}
+
+
+.div2 :hover{
+
+
+    background-color: rgba(99, 79, 52, 0.847);
+}
+
+
+.firstbanner img{
+
+ width: auto;
+ height: auto;
+ margin-top: 26px;
+ 
+ 
+
+}
+
+.firstbanner{
+overflow-x: scroll ;
+display: flex;
+width: 1200px;
+}
+
+
+.heading h1 {
+
+        font-family: bigfont;
+        text-align: center;
+        color: white;
+        /* background-color: rgba(0, 0, 0, 0.297); */
+        width: 600px;
+        /* box-shadow: 5px 5px 20px rgb(139, 105, 105); */
+        
+    }
+
+.heading{
+
+    text-align: center;
+    color: rgb(151, 177, 187);
+    background-color: rgba(42, 18, 18, 0.507);
+    height: 500px;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.fig1 img{
+
+    height: 300px;
+    width: 230px;
+    margin: 12px;
+}
+.fig1{
+
+    
+    
+}
+
+.heading2 h1{
+ 
+    text-align: center;
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.297); */
+    width: 600px;
+}
+
+.heading2{
+
+    text-align: center;
+    color: rgb(151, 177, 187);
+    background-color: rgba(73, 41, 101, 0.329);
+    height: 500px;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
