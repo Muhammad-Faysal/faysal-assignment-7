@@ -18,6 +18,11 @@ body{
 @font-face {
     font-family: bigfont;
     src: url(./font/Barriecito-Regular.ttf);
+    
+}
+@font-face {
+    font-family: big2;
+    src: url(./font/Black_Ops_One/BlackOpsOne-Regular.ttf);
 }
 
 span img {
@@ -241,12 +246,34 @@ width: 1200px;
     
 }
 
+/* .heading2 h1footer part{
+ 
+    text-align: center;
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.297); */
+    /* width: 600px;
+    font-family: big2;
+}
+
+.heading2{
+
+    text-align: center;
+    color: rgb(151, 177, 187);
+    background-color: rgba(73, 41, 101, 0.329);
+    height: 500px;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+} */ 
+
 .heading2 h1{
  
     text-align: center;
     color: white;
     /* background-color: rgba(0, 0, 0, 0.297); */
     width: 600px;
+    font-family: big2;
 }
 
 .heading2{
