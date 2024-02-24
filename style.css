@@ -29,7 +29,7 @@ span img {
     height: 57px;
     position: absolute;
     width: 57px;
-    margin-left: 8px;
+    margin-left: 3px;
     margin-top: -57px;
     border-radius: 70px;
 }
@@ -79,32 +79,49 @@ z-index: initial;
 label {
 
 justify-content: right;
-margin-left: 810px;
+margin-left: 750px;
 /* margin-bottom: 800px; */
 display: inline-block;
-margin-top: -45px;
+margin-top: -42px;
 position: absolute;
 color: beige;
 font-weight: bold;
 
     
-}
 
-label img{
-
-    height: 20px;
-    width: 30px;
 }
 
 input{
 
     border-radius: 15px;
 height: 25px;
+color: aliceblue;
+border: none;
+font-weight: bold;
+}
+
+select {
+
+    width: 50px;
+    height: 25px;
+    color: aliceblue;
+    background-color: rgba(238, 194, 0, 0.932);
+}
+
+option{
+
+    background-color: rgb(64, 79, 96);
+    color: aliceblue;
 }
 
 input:hover{
 
-    background-color: rgba(73, 79, 87, 0.742);
+    background-color: rgba(160, 181, 209, 0.742);
+}
+input:focus{
+
+    background-color: rgba(226, 235, 248, 0.97);
+    color: #000;
 }
 
 .logo1 img{
@@ -112,9 +129,9 @@ input:hover{
     height: 45px;
     position: absolute;
     width: 50px;
-    margin-top: -55px;
+    margin-top: -51px;
     position: absolute;
-    margin-left: 600px;
+    margin-left: 550px;
     
 }
 
@@ -122,9 +139,9 @@ input:hover{
 
     height: 45px;
     width: 50px;
-    margin-top: -55px;
+    margin-top: -51px;
     position: absolute;
-    margin-left: 700px;
+    margin-left: 650px;
     
 }
 
@@ -196,8 +213,8 @@ font-weight: bold;
 
 .firstbanner img{
 
- width: auto;
- height: auto;
+ width: 1260px;
+ height: 350px;
  margin-top: 26px;
  
  
@@ -208,6 +225,7 @@ font-weight: bold;
 overflow-x: scroll ;
 display: flex;
 width: 1200px;
+width: 1260px;
 }
 
 
@@ -227,10 +245,10 @@ width: 1200px;
     text-align: center;
     color: rgb(151, 177, 187);
     background-color: rgba(42, 18, 18, 0.507);
-    height: 500px;
+    height: 523px;
     padding-top: 100px;
     font-family: Arial, Helvetica, sans-serif;
-
+    width: 1260px;
 }
 
 
@@ -240,37 +258,13 @@ width: 1200px;
     width: 230px;
     margin: 12px;
 }
-.fig1{
-
-    
-    
-}
-
-/* .heading2 h1footer part{
- 
-    text-align: center;
-    color: white;
-    /* background-color: rgba(0, 0, 0, 0.297); */
-    /* width: 600px;
-    font-family: big2;
-}
-
-.heading2{
-
-    text-align: center;
-    color: rgb(151, 177, 187);
-    background-color: rgba(73, 41, 101, 0.329);
-    height: 500px;
-    padding-top: 100px;
-    font-family: Arial, Helvetica, sans-serif;
 
 
-} */ 
 
 .heading2 h1{
  
     text-align: center;
-    color: white;
+    color: rgb(32, 210, 186);
     /* background-color: rgba(0, 0, 0, 0.297); */
     width: 600px;
     font-family: big2;
@@ -280,10 +274,119 @@ width: 1200px;
 
     text-align: center;
     color: rgb(151, 177, 187);
-    background-color: rgba(73, 41, 101, 0.329);
-    height: 500px;
+    background-color: rgba(211, 53, 53, 0.329);
+    height: 260px;
     padding-top: 100px;
     font-family: Arial, Helvetica, sans-serif;
+    width: 1260px;
 
 
 }
+
+.shoes1{
+
+display: flex;
+background-color: rgba(0, 0, 0, 0.708);
+height: 438px;
+width: 1260px;
+
+
+}
+
+.shoes1 img{
+height: 300px;
+width: 230px;
+border-radius: 5px;
+
+}
+
+.shoes1 figcaption{
+    
+    color: white;
+    background-color: rgba(100, 148, 237, 0.589);
+}
+
+.shoes1 h2{
+    
+    color: rgb(165, 235, 15);
+}
+
+.shirtbanner img{
+    
+    width: 1260px;
+height: 350px;
+
+
+}
+
+.shirt1{
+    
+    display: flex;
+    height: 500px;
+    background-color: rgba(139, 176, 245, 0.804);
+    width: 1260px;
+
+}
+
+.shirt1 img{
+
+height: 400px;
+width: 300px;
+border-radius: 6px;
+
+}
+
+.shirt1 h2{
+
+     color: rgb(19, 103, 133);
+   
+}
+
+.shirt1 figcaption{
+    
+    background-color: #f75f5f4c;
+    color: #292727;
+    box-shadow: 3px 3px 20px rgb(196, 189, 187);
+}
+
+
+.newbanner img{
+
+    width: 1260px;
+height: 300px;
+}
+
+.newbanner{
+    
+    width: 1260px;
+}
+
+
+
+
+    .footerlist{
+
+
+        display: flex;
+        background-color: #292727;
+        color: aliceblue;
+
+        height: 300px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 1260px;
+    }
+
+
+    ul::first-line{
+
+        font-weight: bold;
+        color: aqua;
+    }
+
+    .footerlist img{
+
+        height: 50px;
+        width: auto;
+        margin-bottom: 30px;
+    
+    }
