@@ -361,6 +361,44 @@ height: 300px;
     width: 1260px;
 }
 
+.electronicitem img{
+
+height: 200px;
+width: 300px;
+box-shadow: 5px 5px 20px rgb(223, 206, 206);
+border-radius: 5px;
+
+    
+}
+
+
+.electronicitem {
+
+display: flex;
+width: 1260px;
+flex-wrap: wrap;
+height: 500px;
+background-color: rgba(202, 163, 24, 0.279);
+
+
+}
+
+  .lastimg > img {
+
+
+
+    width: 600px;
+    height: 250px;
+    margin: 10px;
+    box-shadow: 5px 5px 50px white;
+    border-radius: 5px;
+}
+
+.lastimg{
+
+    width: 1260px;
+    
+}
 
 
 
