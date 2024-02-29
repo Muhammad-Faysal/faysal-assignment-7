@@ -222,11 +222,13 @@ font-weight: bold;
 }
 
 .firstbanner{
-overflow-x: scroll ;
+overflow-x: scroll  ;
+
 display: flex;
 width: 1200px;
 width: 1260px;
 }
+
 
 
 .heading h1 {
@@ -428,3 +430,4 @@ background-color: rgba(202, 163, 24, 0.279);
         margin-bottom: 30px;
     
     }
+
